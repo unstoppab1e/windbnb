@@ -1,22 +1,23 @@
 import React from 'react'
 import './card.css'
 
-export const Card = () => {
+export const Card = ({...element}) => {
   return (
     <div className='card'>
-       <img src='https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2255&q=80' alt=''/>
+       <img src={element.photo} alt={element.title}/>
        <div className='info'>
             <div className='space'>
-                <button className='superhost'>Super Host</button>
-                <div className='type'>Entire apartment</div>
+                {(element.superHost) && <button className='superhost'>SUPER HOST</button>}
+                
+                <div className='type'>{element.type}</div>
             </div>            
             <div className='rating'>
-                <span class="material-symbols-rounded">star</span>
-                4.40
+                <span className="material-symbols-rounded">star</span>
+                {element.rating}
             </div>
             
        </div>
-       <h1 className='title'>Stylist apartment in center of the city</h1>
+       <h1 className='title'>{element.title}</h1>
     </div>
   )
 }
