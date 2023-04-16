@@ -1,93 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@300;400;700;900&family=Mulish:wght@300;400;700&family=Sofia&display=swap");
 
 .card {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    width: 395px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 395px;
 }
-.card img{
-    height: 270px;
-    border-radius: 24px;
+.card img {
+  height: 270px;
+  border-radius: 24px;
+  object-fit: cover;
 }
 
 .info {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
 }
-.material-symbols-rounded{
-    color: #EB5757;
-}
-
-.space{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    
+.material-symbols-rounded {
+  color: #eb5757;
 }
 
-.rating{
-    display: flex;
-    flex-direction: row;
-    
-    align-items: center;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-
-
-
-    color: #4F4F4F;
+.space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.type{
-    margin-left: 10px;
+.rating {
+  display: flex;
+  flex-direction: row;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: left;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
 
-
-    color: #828282;
+  color: #4f4f4f;
 }
 
-.title{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
+.type {
+  margin-left: 10px;
 
-    text-align: left;
-    align-items: start;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
 
-    color: #333333;
+  color: #828282;
 }
 
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 
-.superhost{
-    box-sizing: border-box;
-    width: 100px;
-    height: 28px;
-    border: 1px solid #4F4F4F;
-    border-radius: 12px;    
+  text-align: left;
+  align-items: start;
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 15px;
-    background: none;
-    align-items: center;
+  color: #333333;
+}
 
-    text-transform: uppercase;
+.superhost {
+  box-sizing: border-box;
+  width: 100px;
+  height: 28px;
+  border: 1px solid #4f4f4f;
+  border-radius: 12px;
 
-    color: #4F4F4F;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  background: none;
+  align-items: center;
+
+  text-transform: uppercase;
+
+  color: #4f4f4f;
 }

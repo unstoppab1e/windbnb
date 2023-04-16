@@ -1,0 +1,26 @@
+.filter-card {
+  /* display: none; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 400px;
+  background: #c55c5c;
+  transform: translateY(-400px);
+  transition: all 0.5s ease-in-out;
+}
+
+.filter-card--active {
+  /* display: flex; */
+  transform: translateY(0);
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
